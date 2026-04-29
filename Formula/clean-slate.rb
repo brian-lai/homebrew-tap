@@ -7,7 +7,6 @@ class CleanSlate < Formula
   head "https://github.com/brian-lai/clean-slate.git", branch: "main"
 
   depends_on "go" => :build
-  depends_on "git"
 
   def install
     ldflags = "-s -w -X github.com/brian-lai/clean-slate/internal/version.Version=#{version}"
