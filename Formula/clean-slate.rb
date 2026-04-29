@@ -1,8 +1,8 @@
 class CleanSlate < Formula
   desc "Interactive CLI for managing per-task workspaces with git worktrees"
   homepage "https://github.com/brian-lai/clean-slate"
-  url "https://github.com/brian-lai/clean-slate/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "f39a56117616f97001e35b1cd6e251c8d695dbb5662ea1a76c5d4a8d542c589b"
+  url "https://github.com/brian-lai/clean-slate/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "2d3b33061fa3975c7c2ab86c5a1c2b320d1a4140bfaa1d3497d77f17d5d36d19"
   license "MIT"
   head "https://github.com/brian-lai/clean-slate.git", branch: "main"
 
